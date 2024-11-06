@@ -1,10 +1,10 @@
 import "./App.css"
-import Heading from "./module1/components/heading"
+import Module1 from "./module1/Module1"
 
 function App() {
   return (
     <div className="App">
-      <Heading />
+      <Module1 />
     </div>
   )
 }
