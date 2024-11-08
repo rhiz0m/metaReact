@@ -1,5 +1,5 @@
 import "./App.css"
-import Module1 from "./module1/Module1"
+import Module1 from "./module1/App1"
 
 function App() {
   return (

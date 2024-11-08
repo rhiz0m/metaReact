@@ -1,6 +1,7 @@
-function Heading() {
-  //This is a comment
-  return <h1>This is an h1 heading</h1>
+// Child component to App1
+
+function Heading(props) {
+  return <h1>Hello, {props.firstName}</h1>
 }
 
 export default Heading
