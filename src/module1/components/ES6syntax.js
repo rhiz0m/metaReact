@@ -18,3 +18,4 @@ console.log(temporaryArr) // undefined
 // For Each good to show data from ex an API
 
 const test = [4, 2, 6].forEach(item => console.log(` ForEach: ${item * 50}`))
+console.log(test)
