@@ -3,16 +3,28 @@ import styles from "./styles/App.module.css"
 import Bag from "./components/bag"
 import Apples from "./components/apples"
 import Pears from "./components/pears"
+import ExpressionAsProps from "./ExpressionsAsProps"
+import logo from "./images/logo.png"
+
+function Example(props) {
+
+  return (
+    <h2>The value of a toggleBoolean prop is: { props.toggleBoolean.toString() }</h2>
+  )
+}
 
 // Parent-component
 function App1() {
-
+  const bool = true
   const randomNumber = Math.floor(Math.random() * 100)
 
   return (
     <div className={styles.appContainer}>
+      <ExpressionAsProps logo={ logo } />
+      <Example toggleBoolean ={!bool}/>
       <Heading firstName="Bob!" />
       <Heading firstName="Sandra!" />
+
       <Bag background="#ff5533">
         <Apples color="red" number="4" background="" />
       </Bag>
