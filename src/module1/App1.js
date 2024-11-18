@@ -9,19 +9,32 @@ import logo from "./images/logo.png"
 function Example(props) {
 
   return (
-    <h2>The value of a toggleBoolean prop is: { props.toggleBoolean.toString() }</h2>
+    <div>
+      <h2>
+        The value of a toggleBoolean prop is: {props.toggleBoolean.toString()}
+      </h2>
+      <p>
+        The value of the math prop is: <em>{props.math}</em>
+      </p>
+      <p>This is: {props.str} another string</p>
+    </div>
   )
 }
 
 // Parent-component
 function App1() {
+  const str1 = "just"
   const bool = true
   const randomNumber = Math.floor(Math.random() * 100)
 
   return (
     <div className={styles.appContainer}>
       <ExpressionAsProps logo={ logo } />
-      <Example toggleBoolean ={!bool}/>
+      <Example 
+      toggleBoolean ={!bool}
+      math = { 5 + 5}
+      str = { str1 }
+      />
       <Heading firstName="Bob!" />
       <Heading firstName="Sandra!" />
 
