@@ -1,9 +1,9 @@
-import DynamicEvents from "./labsModule2/Lab_DynamicEvents"
+import Dog from "./DataFlow/dog"
 
 function App2() {
   return (
     <div>
-      <DynamicEvents />
+      <Dog />
     </div>
   )
 }
