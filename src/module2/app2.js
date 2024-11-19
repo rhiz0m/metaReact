@@ -1,9 +1,9 @@
-import DarkmodeToggler from "./experimentalFunctions/darkModeToggler"
+import DynamicEvents from "./labsModule2/Lab_DynamicEvents"
 
 function App2() {
   return (
     <div>
-      <DarkmodeToggler />
+      <DynamicEvents />
     </div>
   )
 }
