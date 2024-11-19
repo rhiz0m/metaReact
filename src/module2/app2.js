@@ -1,9 +1,9 @@
-import Dog from "./DataFlow/dog"
+import DataflowPractice from "./DataFlow/dataFlowPractice"
 
 function App2() {
   return (
     <div>
-      <Dog />
+      <DataflowPractice />
     </div>
   )
 }
