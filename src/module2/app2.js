@@ -1,9 +1,9 @@
-import Btn from "./components/btn"
+import DarkmodeToggler from "./experimentalFunctions/darkModeToggler"
 
 function App2() {
   return (
     <div>
-      <Btn />
+      <DarkmodeToggler />
     </div>
   )
 }
