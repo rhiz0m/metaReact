@@ -1,12 +1,14 @@
 import "./App.css"
-import Module1 from "./module1/App1"
+import App2 from "./module2/app2"
 
 function App() {
   return (
     <div className="App">
-      <Module1 />
+      < App2 />
     </div>
   )
 }
 
 export default App
+
+//    <Module1 />
