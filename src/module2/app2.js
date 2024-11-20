@@ -1,9 +1,9 @@
-import DataflowPractice from "./DataFlow/dataFlowPractice"
+import InputComponent from "./experimentalFunctions/usingHooks"
 
 function App2() {
   return (
     <div>
-      <DataflowPractice />
+      <InputComponent />
     </div>
   )
 }
