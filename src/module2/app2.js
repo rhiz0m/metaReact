@@ -1,11 +1,9 @@
-import Form from "./experimentalFunctions/formExample"
-import TextInputWithFocusButton from "./experimentalFunctions/useRef"
+import MealApp from "./context/mealApp"
 
 function App2() {
   return (
     <div>
-      <Form />
-      <TextInputWithFocusButton />
+      <MealApp />
     </div>
   )
 }
