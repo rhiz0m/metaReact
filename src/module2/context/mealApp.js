@@ -5,9 +5,10 @@ import Counter from "./counter"
 function MealApp() {
   return (
     <div>
+      <h1>Meal App</h1>
       <MealProvider>
-        <MealsList />
         <Counter />
+        <MealsList />
       </MealProvider>
     </div>
   )
