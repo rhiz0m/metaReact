@@ -1,9 +1,9 @@
-import InputComponent from "./experimentalFunctions/usingHooks"
+import Form from "./experimentalFunctions/formExample"
 
 function App2() {
   return (
     <div>
-      <InputComponent />
+      <Form />
     </div>
   )
 }

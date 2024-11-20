@@ -4,7 +4,7 @@ export default function InputComponent() {
   const [inputText, setText] = useState("Hi!")
 
   function handleChange(e) {
-    setText(e.target.value)
+    setText(e.target.value) // Keeps track of the users input
   }
 
   return (
