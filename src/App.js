@@ -1,6 +1,6 @@
 import "./App.css"
 import Homepage from "./module3/Labs_module3/Homepage"
-import Contact from "./module3/Labs_module3/Contact"
+import Calculator from "./module3/Labs_module3/calculator"
 import LabOnSounds from "./module3/Labs_module3/LabOnSounds"
 import { Route, Link, Routes } from "react-router-dom"
 
@@ -14,14 +14,14 @@ function App() {
         <Link to="/labOnSounds" className="nav-item">
           LabOnSounds
         </Link>
-        <Link to="/contact" className="nav-item">
+        <Link to="/calculator" className="nav-item">
           Contact
         </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/labOnSounds" element={<LabOnSounds />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/calculator" element={<Calculator />}></Route>
       </Routes>
     </div>
   )
